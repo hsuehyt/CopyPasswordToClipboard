@@ -1,8 +1,8 @@
 @echo off
 setlocal
 
-:: Path to the text file
-set file_path=C:\Users\user\Desktop\Password.txt
+:: Path to the text file (relative path to subfolder)
+set file_path=%~dp0TNUAcopySource\TNUAEmail.txt
 
 :: Read the content of the text file
 set content=
